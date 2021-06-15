@@ -1,0 +1,39 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+    
+}
+body{
+     display:list-item;
+     align-items: unset;
+
+}
+
+.wrapper{
+    background: none;
+    padding: 1px;
+    max-width: 200px;
+    width: 100%;
+}
+
+
+
+.wrapper .item{
+     background-color: rgba(133, 125, 125, 0.199);
+     color: rgb(0, 0, 0);
+     display: flex;
+     font-family: Rockwell;
+     width:360px;
+     border: 1px solid #3c2d663d;
+     padding:1px 6px;
+     margin-bottom: 4px;
+     align-items: center;
+     justify-content: space-between;
+}
+
+
+.wrapper .item i {
+     cursor: pointer;
+     color: rgb(209, 62, 36);
+}
